@@ -1,0 +1,34 @@
+@font-face{
+    font-family: 'TitleText';
+    src: url('../font/PatrickHand-Regular.ttf')
+}
+
+@font-face{
+    font-family: 'BodyText';
+    src: url('../font/Rokkitt/Rokkitt-Regular.ttf')
+}
+
+@font-face{
+    font-family: 'BoldText';
+    src: url('../font/Rokkitt/Rokkitt-Bold.ttf')
+}
+
+@font-face{
+    font-family: 'SerifText';
+    src: url('../font/Rokkitt/Rokkitt-Regular.ttf')
+}
+
+@font-face{
+    font-family: 'SansSerifText';
+    src: url('../font/OpenSans/OpenSans-Regular.ttf')
+}
+
+@font-face{
+    font-family: 'Display1Text';
+    src: url('../font/Coda/Coda-Regular.ttf')
+}
+
+@font-face{
+    font-family: 'Display2Text';
+    src: url('../font/PatrickHand-Regular.ttf')
+}

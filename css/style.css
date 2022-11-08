@@ -1,0 +1,187 @@
+body {
+    background-color: rgba(2, 89, 64, .8);
+    font-size: 20px;
+    font-family: 'BodyText';
+}
+
+.banner {
+    height: 15em;
+}
+
+#bannerImg {
+    background-image: url(../img/banner-01.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: .5em;
+    height: 15em;
+}
+
+.banner h1 {
+    color: rgba(242, 242, 242, 1);
+    position: relative;
+    bottom: 2.5em;
+    text-align: center;
+    font-family: 'TitleText';
+    font-size: 4em
+}
+
+section {
+    background-color: rgba(242, 242, 242, .7);
+    margin: 2em .5em;
+    border: .1em solid rgba(1, 64, 52, 1);
+    padding: 1em;
+}
+
+h2 {
+    font-size: 2em;
+    padding-bottom: .5em;
+    font-family: 'BoldText';
+}
+
+h3 {
+    font-weight: bold;
+}
+
+/*-- Colors --*/
+
+.rgba {
+    font-size: .9em;
+}
+
+.lake {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.lakeBox {
+    width: 7em;
+    margin: .1em;
+    border: .1em solid rgba(0, 0, 0, .8);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.mtBox {
+    height: 4em;
+    width: 7em;
+    margin: .1em;
+    border: .1em solid rgba(0, 0, 0, .8);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+}
+
+#lake1 {
+    background-color: rgba(86,101,115,1);
+}
+
+#lake2 {
+    background-color: rgba(1,64,52,1);
+}
+
+#lake3 {
+    background-color: rgba(2,89,64,1);
+}
+
+#lake4 {
+    background-color: rgba(157,166,91,1);
+}
+
+#lake5 {
+    background-color: rgba(242,242,242,1));
+}
+
+#mt1 {
+    background-color: rgba(2,56,89,1);
+}
+
+#mt2 {
+    background-color: rgba(3,136,166,1);
+}
+
+#mt3 {
+    background-color: rgba(242,155,48,1);
+}
+
+#mt4 {
+    background-color: rgba(217,123,41,1);
+}
+
+/*-- Fonts --*/
+
+.fontBox {
+    line-height: 1.5;
+    margin-bottom: 1em;
+}
+
+.fontBox h3 {
+    text-decoration: underline;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+#serif {
+    font-family: 'SerifText';
+}
+
+#sansSerif {
+    font-family: 'SansSerifText';
+}
+
+#display1 {
+    font-family: 'Display1Text';
+}
+
+#display2 {
+    font-family: 'Display2Text';
+    margin-bottom: 0;
+}
+
+/*-- Text Styles --*/
+
+#textBox {
+   line-height: 1.5; 
+}
+
+#textBox h1 {
+    font-family: 'SansSerifText';
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#textBox h2 {
+    font-family: 'SerifText';
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 0;
+    margin-top: .5em;
+}
+
+#textBox p {
+  font-family: 'SerifText';
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 1em;  
+}
+
+#textBox li {
+    font-size: 0.8em;
+}
+
+footer {
+    padding: 10px;
+}
